@@ -1,0 +1,34 @@
+_id: req_5a7ab7600ac74cf8a7c7dcf5b2dcf145
+type: Request
+parentId: fld_319e37fc291b4ef29f890dc1c111ba33
+modified: 1718268805828
+created: 1718268784180
+url: http://localhost:8888/api/v1/user/tenant
+name: New User AS Tenant
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "firstName": "First",
+      "familyName": "Family",
+      "middleName": "Middle",
+      "email": "user@domain.com",
+      "pass": "PlainPassword"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1715895005032.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
