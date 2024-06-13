@@ -1,22 +1,21 @@
-_id: req_a9ebdd71c543468dab45503b4cd719fe
+_id: req_ba4201530c5c4471a5a95e19fa4858a1
 type: Request
-parentId: fld_319e37fc291b4ef29f890dc1c111ba33
-modified: 1718271059790
-created: 1718267362799
-url: http://localhost:8888/api/v1/user/create
-name: 02 New User FOR Tenant
+parentId: fld_2ff8fef7faf945b5b8abed2050c41d30
+modified: 1718277373735
+created: 1718272313567
+url: http://localhost:8888/api/v1/apartment/create
+name: 01 New Apartment
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-      "firstName": "First",
-      "familyName": "Family",
-      "middleName": "Middle",
-      "email": "user@domain.com",
-      "pass": "PlainPassword",
-      "tenantId": 1
+    	"mark": "1",
+    	"name": "Prizemlje",
+    	"description":"Apartment 1",
+    	"createdBy": 1,
+    	"tenantId": 1
     }
 parameters: []
 headers:
@@ -25,7 +24,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1718267362799
+metaSortKey: -1718272313567
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

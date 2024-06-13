@@ -1,0 +1,41 @@
+_id: req_47a46f43781248f7af73e2a5dc8b7f43
+type: Request
+parentId: fld_936409da1bf04ace9f122bf066bb508c
+modified: 1718276670963
+created: 1718274899969
+url: http://localhost:8888/api/v1/guest/edit
+name: 02 Edit Guest
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "1",
+      "firstName": "Guest1",
+      "familyName": "Guester1",
+      "middleName": "Middleguest1",
+      "birthDate": "1970-01-01",
+      "email": "guest@domain.com",
+      "mobile": "000-(000)-0000-0000",
+      "citizenship": "0",
+      "nationaliti": "0",
+      "pid": "F0000000001",
+      "tenantId": "1",
+      "createdBy": "0"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1718269845467.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
